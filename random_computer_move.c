@@ -3,8 +3,6 @@
 #include <time.h>
 #include "declarations.h"
 
-
-
 void randomComputerMove(struct game_data* game)
 {   
     int row, column;
