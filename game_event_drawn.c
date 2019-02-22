@@ -6,7 +6,7 @@
 void gameEventDrawn(struct game_data* game)
 {
     if (game->turns == 9 && game->win == 0) {
-        game->win = 1;
+        game->end = 1;
         printf("You have DRAWN\n");
     }
 }
