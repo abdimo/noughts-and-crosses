@@ -1,6 +1,6 @@
 
 struct game_data {
-    int win;          // Either 0 or 1.
+    int end;          // Either 0 or 1.
     int turns;        // Ranges from 0 to 9(game end).
     int turn;         // Either 0 or 1 where 0 is human player
     char grid[3][3];  // Grid
