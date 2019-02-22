@@ -33,7 +33,7 @@ void gameEventWon(struct game_data* game)
 {
     switch (threeInARow(game->grid)) {
     case 'X':
-        game->win = 1;
+        game->end = 1;
         printf("You have WON\n");
         break;
     case 'O':
